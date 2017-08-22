@@ -1,0 +1,14 @@
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/TokenServerTest.deps.json
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/TokenServerTest.runtimeconfig.json
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/TokenServerTest.runtimeconfig.dev.json
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/TokenServerTest.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/bin/Debug/netcoreapp2.0/TokenServerTest.pdb
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/obj/Debug/netcoreapp2.0/TokenServerTest.csprojResolveAssemblyReference.cache
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/obj/Debug/netcoreapp2.0/TokenServerTest.csproj.CoreCompileInputs.cache
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/obj/Debug/netcoreapp2.0/TokenServerTest.AssemblyInfoInputs.cache
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/obj/Debug/netcoreapp2.0/TokenServerTest.AssemblyInfo.cs
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/obj/Debug/netcoreapp2.0/TokenServerTest.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServerTest/obj/Debug/netcoreapp2.0/TokenServerTest.pdb

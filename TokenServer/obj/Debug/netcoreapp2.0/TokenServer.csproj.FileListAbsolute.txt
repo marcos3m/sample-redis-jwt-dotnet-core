@@ -1,0 +1,12 @@
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.csprojResolveAssemblyReference.cache
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.csproj.CoreCompileInputs.cache
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.AssemblyInfoInputs.cache
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.AssemblyInfo.cs
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/TokenServer.deps.json
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/TokenServer.runtimeconfig.json
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/TokenServer.runtimeconfig.dev.json
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/TokenServer.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/TokenServer.pdb
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.dll
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.pdb
+/Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{1D46975A-975F-46B5-B36D-C7118C0755B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TokenServer/Repository/RedisRepository.cs">
+    <Files>
+      <File FileName="TokenServer/Repository/RedisRepository.cs" Line="14" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TokenServer PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
