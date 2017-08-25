@@ -10,3 +10,17 @@
 /Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.dll
 /Users/marcosmullermartins/Projects/Test/Auth/TokenServer/obj/Debug/netcoreapp2.0/TokenServer.pdb
 /Users/marcosmullermartins/Projects/Test/Auth/TokenServer/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServer.xml
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServer.deps.json
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServer.runtimeconfig.json
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServer.runtimeconfig.dev.json
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServer.dll
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServer.pdb
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServerCore.dll
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\bin\Debug\netcoreapp2.0\TokenServerCore.pdb
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\obj\Debug\netcoreapp2.0\TokenServer.csprojResolveAssemblyReference.cache
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\obj\Debug\netcoreapp2.0\TokenServer.csproj.CoreCompileInputs.cache
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\obj\Debug\netcoreapp2.0\TokenServer.AssemblyInfoInputs.cache
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\obj\Debug\netcoreapp2.0\TokenServer.AssemblyInfo.cs
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\obj\Debug\netcoreapp2.0\TokenServer.dll
+C:\github\sample-redis-jwt-dotnet-core\TokenServer\obj\Debug\netcoreapp2.0\TokenServer.pdb

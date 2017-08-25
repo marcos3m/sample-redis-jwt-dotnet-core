@@ -1,52 +1,79 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TokenServer.Repository;
+using TokenServerCore.Entities;
+using System;
 
 namespace TokenServer.Controllers
 {
-    [Route("api/v0/[controller]")]
+    /// <summary>
+    /// TokenController
+    /// </summary>
+    [Route("api/v1/[controller]")]
     public class TokenController : Controller
     {
-        private RedisRepository redisRepository;
+        private RedisRepository _redisRepository;
 
+        /// <summary>
+        /// TokenController
+        /// </summary>
+        /// <param name="redisRepository"></param>
         public TokenController(RedisRepository redisRepository)
         {
-            this.redisRepository = redisRepository;
+            _redisRepository = redisRepository;
         }
 
-        // GET api/values/5
-        [HttpGet("{key}/{value}")]
-        public async Task Set(string key, string value)
-        {
-            await this.redisRepository.Set(key, value);
-        }
-
-        // GET api/values/5
-        [HttpGet("{value}")]
-        public async Task<string> Get(string value)
-        {
-            return await this.redisRepository.Get(value);
-        }
-
-        // POST api/values
+        /// <summary>
+        /// Create a new token.
+        /// </summary>
+        /// <returns>token</returns>
+        /// <response code="200">Token created successfuly.</response>
+        /// <response code="400">Bad request.</response>
+        /// <response code="500">Internal Server Error</response>
         [HttpPost]
-        public void Post([FromBody]string value)
+        public async Task<IActionResult> Post([FromBody]Token token)
         {
+            try
+            {
+                if (!token.IsValid())
+                    return BadRequest();
+
+                await _redisRepository.Set(token.Key, token.Value);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, string.Format("An error has ocurred while trying to create a new token. Ex: {0}", ex.Message));
+            }
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        /// <summary>
+        /// Returns a token based on key.
+        /// </summary>
+        /// <returns>token</returns>
+        /// <response code="200">Token retrieved successfuly.</response>
+        /// <response code="404">Bad request.</response>
+        /// <response code="404">Token not found.</response>
+        /// <response code="500">Internal Server Error</response>
+        [HttpGet("{key}")]
+        public async Task<IActionResult> Get(string key)
         {
-        }
+            try
+            {
+                if (string.IsNullOrEmpty(key))
+                    return BadRequest();
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+                var r = await _redisRepository.Get(key);
+
+                if (r == null)
+                    return NotFound();
+                else
+                    return Ok(r);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, string.Format("An error has ocurred while trying to retrieve a token. Ex: {0}", ex.Message));
+            }
         }
     }
 }
