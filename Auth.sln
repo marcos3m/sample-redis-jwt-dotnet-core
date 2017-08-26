@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenServer", "TokenServer\TokenServer.csproj", "{1D46975A-975F-46B5-B36D-C7118C0755B4}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenServer", "TokenServer\TokenServer.csproj", "{1D46975A-975F-46B5-B36D-C7118C0755B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenServerTest", "TokenServerTest\TokenServerTest.csproj", "{29149750-F1B2-4D08-8EB6-280C804BAA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenServerTest", "TokenServerTest\TokenServerTest.csproj", "{29149750-F1B2-4D08-8EB6-280C804BAA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenServerCore", "TokenServerCore\TokenServerCore.csproj", "{78B9486F-AB0C-4821-809B-E786991CA64A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +22,15 @@ Global
 		{29149750-F1B2-4D08-8EB6-280C804BAA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29149750-F1B2-4D08-8EB6-280C804BAA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29149750-F1B2-4D08-8EB6-280C804BAA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B9486F-AB0C-4821-809B-E786991CA64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B9486F-AB0C-4821-809B-E786991CA64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B9486F-AB0C-4821-809B-E786991CA64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B9486F-AB0C-4821-809B-E786991CA64A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B2534A-8886-4D11-84A8-C8C86F9F119E}
 	EndGlobalSection
 EndGlobal
