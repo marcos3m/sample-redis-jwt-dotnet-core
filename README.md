@@ -18,6 +18,8 @@ https://www.microsoft.com/net/core#windowsvs2017 (Windows)
 https://www.microsoft.com/net/core#linuxredhat (Linux)
 https://www.microsoft.com/net/core#macos (MacOS)
 https://www.microsoft.com/net/core#dockercmd (Docker)
+
+https://github.com/MicrosoftArchive/redis/releases (Redis)
 ```
 
 Run Linux / MacOS:
